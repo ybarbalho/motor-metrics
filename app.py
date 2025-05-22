@@ -6,7 +6,7 @@ data = pd.read_csv('vehicles_us.csv')
 
 st.header('Motor Metrics: vendas automotivas')
 
-build_histogram = st.checkbox('Criar um histograma')
+build_histogram = st.checkbox('Criar um histograma de vendas')
 build_scatter = st.checkbox('Criar um gráfico de dispersão')
 
 if build_histogram:
