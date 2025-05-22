@@ -10,15 +10,17 @@ build_histogram = st.checkbox('Criar um histograma de vendas')
 build_scatter = st.checkbox('Criar um gráfico de dispersão')
 
 if build_histogram:
-    st.write('Histograma por valor de Hodômetro')
+    st.write('Histograma por Milhas rodadas')
 
-    fig = px.histogram(data, x='odometer')
+    fig = px.histogram(data, x='odometer', labels={
+                       'odometer': 'Milhas rodadas', 'count': 'Total de veículos'})
 
     st.plotly_chart(fig, use_container_width=True)
 
 if build_scatter:
-    st.write("Gráfico de dispersão para 'Hodômetro x Preço'")
+    st.write("Gráfico de dispersão de 'Milhas rodadas x Preço'")
 
-    fig = px.scatter(data, x='odometer', y='price')
+    fig = px.scatter(data, x='odometer', y='price', labels={
+                     'odometer': 'Milhas rodadas', 'price': 'Preço do automóvel'})
 
     st.plotly_chart(fig, use_container_width=True)
