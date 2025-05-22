@@ -3,14 +3,9 @@
 ## Índice
 
 - [Visão Geral](#visão-geral)
-- [Tecnologias](#tecnologias)
 
 ## Visão Geral
 
-Este projeto foi desenvolvido para observação dos dados de anúncios de vendas de carros nos Estados Unidos.
+Este projeto foi desenvolvido para com a finalidade de observar os dados de anúncios de vendas de carros nos Estados Unidos, no período 2018-2019.
 
-## Tecnologias
-
-- Python
-- Jupyter
-- Streamlit
+Em seu escopo, é possível a observação de histogramas e gráficos de dispersão das vendas na época em destaque.
