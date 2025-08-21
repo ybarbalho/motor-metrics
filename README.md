@@ -1,14 +1,14 @@
 # Motor Metrics 🚗
 
-## Índice
+## 📑 Índice
 
-- [Visão Geral](#visão-geral)
-- [Funcionalidades](#funcionalidades)
-- [Links](#links)
+- 🔭 [Visão Geral](#visão-geral)
+- 🔧 [Funcionalidades](#funcionalidades)
+- 🔗 [Links](#links)
 
 ---
 
-## Visão Geral
+## 🔭 Visão Geral
 
 O projeto Motor Metrics foi desenvolvido com a finalidade de observar dados dos carros anunciados para venda, nos Estados Unidos, entre os anos de 2018 e 2019.
 
@@ -22,7 +22,7 @@ Por fim, há uma comparação entre os preços dos veículos de até duas montad
 
 ---
 
-## Funcionalidades
+## 🔧 Funcionalidades
 
 - Visualização dos dados de vendas dos veículos;
 - Histograma de distribuição dos veículos por milhas rodadas;
@@ -34,6 +34,6 @@ Por fim, há uma comparação entre os preços dos veículos de até duas montad
 
 ---
 
-## Links
+## 🔗 Links
 
 Render: https://motor-metrics.onrender.com/
